@@ -1,0 +1,235 @@
+[2023-08-19T18:33:20.392] [DEBUG] default - Server is running
+[2023-08-25T13:47:45.446] [DEBUG] default - Server is running
+[2023-12-29T22:31:14.694] [DEBUG] default - Server is running
+[2023-12-29T22:31:16.753] [ERROR] default - Erreur de connexion à la DB : Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.u4d41kg.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17) {
+  errno: undefined,
+  code: 'ENOTFOUND',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.u4d41kg.mongodb.net'
+}
+[2023-12-29T22:38:47.034] [DEBUG] default - Server is running
+[2023-12-29T22:54:06.664] [DEBUG] default - Server is running
+[2023-12-29T22:54:24.915] [DEBUG] default - Server is running
+[2024-01-07T11:39:51.457] [DEBUG] default - Server is running
+[2024-01-07T14:08:45.840] [DEBUG] default - Server is running
+[2024-04-03T22:14:34.052] [DEBUG] default - Server is running
+[2024-04-03T22:14:34.311] [ERROR] default - Erreur de connexion à la DB : Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.u4d41kg.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17) {
+  errno: undefined,
+  code: 'ENOTFOUND',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.u4d41kg.mongodb.net'
+}
+[2024-04-11T10:56:36.211] [DEBUG] default - Server is running
+[2024-04-11T10:56:36.216] [ERROR] default - Erreur de connexion à la DB : Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.u4d41kg.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17) {
+  errno: undefined,
+  code: 'ECONNREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.u4d41kg.mongodb.net'
+}
+[2024-07-09T13:35:23.354] [DEBUG] default - Server is running
+[2024-07-09T13:35:23.562] [ERROR] default - Erreur de connexion à la DB : Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.u4d41kg.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17) {
+  errno: undefined,
+  code: 'ENOTFOUND',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.u4d41kg.mongodb.net'
+}
+[2024-07-10T14:53:48.028] [DEBUG] default - Server is running
+[2024-07-10T14:58:19.960] [ERROR] default - Error
+    at Database.<anonymous> (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:185:27)
+    at /Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:183:50
+    at new Promise (<anonymous>)
+    at Query.run (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:183:12)
+    at /Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/sequelize.js:315:28
+    at async SQLiteQueryInterface.select (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async User.findAll (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/model.js:1140:21)
+    at async User.findOne (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/model.js:1240:12)
+    at async module.exports.register (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/controllers/auth.controller.js:15:26) {
+  name: 'SequelizeDatabaseError',
+  parent: [Error: SQLITE_ERROR: no such table: Users] {
+    errno: 1,
+    code: 'SQLITE_ERROR',
+    sql: 'SELECT `id`, `username`, `email`, `password`, `createdAt`, `updatedAt` FROM `Users` AS `User` LIMIT 1;'
+  },
+  original: [Error: SQLITE_ERROR: no such table: Users] {
+    errno: 1,
+    code: 'SQLITE_ERROR',
+    sql: 'SELECT `id`, `username`, `email`, `password`, `createdAt`, `updatedAt` FROM `Users` AS `User` LIMIT 1;'
+  },
+  sql: 'SELECT `id`, `username`, `email`, `password`, `createdAt`, `updatedAt` FROM `Users` AS `User` LIMIT 1;',
+  parameters: {}
+}
+[2024-07-10T14:59:13.816] [DEBUG] default - Server is running
+[2024-07-10T14:59:17.409] [DEBUG] default - Server is running
+[2024-07-10T14:59:19.335] [DEBUG] default - Server is running
+[2024-07-10T14:59:23.956] [ERROR] default - Error
+    at Database.<anonymous> (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:185:27)
+    at /Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:183:50
+    at new Promise (<anonymous>)
+    at Query.run (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:183:12)
+    at /Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/sequelize.js:315:28
+    at async SQLiteQueryInterface.select (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async User.findAll (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/model.js:1140:21)
+    at async User.findOne (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/model.js:1240:12)
+    at async module.exports.register (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/controllers/auth.controller.js:15:26) {
+  name: 'SequelizeDatabaseError',
+  parent: [Error: SQLITE_ERROR: no such table: Users] {
+    errno: 1,
+    code: 'SQLITE_ERROR',
+    sql: 'SELECT `id`, `username`, `email`, `password`, `role`, `createdAt`, `updatedAt` FROM `Users` AS `User` LIMIT 1;'
+  },
+  original: [Error: SQLITE_ERROR: no such table: Users] {
+    errno: 1,
+    code: 'SQLITE_ERROR',
+    sql: 'SELECT `id`, `username`, `email`, `password`, `role`, `createdAt`, `updatedAt` FROM `Users` AS `User` LIMIT 1;'
+  },
+  sql: 'SELECT `id`, `username`, `email`, `password`, `role`, `createdAt`, `updatedAt` FROM `Users` AS `User` LIMIT 1;',
+  parameters: {}
+}
+[2024-07-10T14:59:49.229] [DEBUG] default - Server is running
+[2024-07-10T14:59:52.207] [DEBUG] default - Server is running
+[2024-07-10T15:00:01.592] [DEBUG] default - Server is running
+[2024-07-10T15:00:04.310] [DEBUG] default - Server is running
+[2024-07-10T15:00:13.572] [DEBUG] default - Server is running
+[2024-07-10T15:00:15.352] [DEBUG] default - Server is running
+[2024-07-10T15:00:21.438] [DEBUG] default - Server is running
+[2024-07-10T15:00:25.031] [ERROR] default - Error
+    at Database.<anonymous> (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:185:27)
+    at /Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:183:50
+    at new Promise (<anonymous>)
+    at Query.run (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:183:12)
+    at /Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/sequelize.js:315:28
+    at async SQLiteQueryInterface.insert (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async model.save (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/model.js:2490:35)
+    at async module.exports.register (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/controllers/auth.controller.js:28:5) {
+  name: 'SequelizeDatabaseError',
+  parent: [Error: SQLITE_ERROR: no such table: Users] {
+    errno: 1,
+    code: 'SQLITE_ERROR',
+    sql: 'INSERT INTO `Users` (`id`,`username`,`email`,`password`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);'
+  },
+  original: [Error: SQLITE_ERROR: no such table: Users] {
+    errno: 1,
+    code: 'SQLITE_ERROR',
+    sql: 'INSERT INTO `Users` (`id`,`username`,`email`,`password`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);'
+  },
+  sql: 'INSERT INTO `Users` (`id`,`username`,`email`,`password`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);',
+  parameters: {}
+}
+[2024-07-10T15:02:16.173] [DEBUG] default - Server is running
+[2024-07-10T15:03:01.273] [DEBUG] default - Server is running
+[2024-07-10T15:03:08.960] [DEBUG] default - Server is running
+[2024-07-10T15:03:50.734] [DEBUG] default - Server is running
+[2024-07-10T15:05:37.515] [DEBUG] default - Server is running
+[2024-07-10T15:05:39.789] [DEBUG] default - Server is running
+[2024-07-10T15:05:42.142] [DEBUG] default - Server is running
+[2024-07-10T15:05:48.201] [DEBUG] default - Server is running
+[2024-07-10T15:05:50.527] [DEBUG] default - Server is running
+[2024-07-10T15:05:54.197] [DEBUG] default - Server is running
+[2024-07-10T15:06:02.871] [DEBUG] default - Server is running
+[2024-07-10T15:06:08.238] [DEBUG] default - Server is running
+[2024-07-10T15:06:21.766] [DEBUG] default - Server is running
+[2024-07-10T15:06:23.326] [DEBUG] default - Server is running
+[2024-07-10T15:06:29.159] [DEBUG] default - Server is running
+[2024-07-10T15:06:40.122] [DEBUG] default - Server is running
+[2024-07-10T15:06:47.831] [DEBUG] default - Server is running
+[2024-07-10T15:07:04.396] [DEBUG] default - Server is running
+[2024-07-10T15:07:54.410] [DEBUG] default - Server is running
+[2024-07-10T15:07:58.867] [DEBUG] default - Server is running
+[2024-07-10T15:08:14.158] [ERROR] default - TypeError: Assignment to constant variable.
+    at module.exports.register (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/controllers/auth.controller.js:16:12)
+    at Layer.handle [as handle_request] (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/express/lib/router/index.js:47:12)
+[2024-07-10T15:10:18.864] [DEBUG] default - Server is running
+[2024-07-10T15:10:30.556] [DEBUG] default - Server is running
+[2024-07-10T15:10:32.655] [DEBUG] default - Server is running
+[2024-07-10T15:12:52.900] [DEBUG] default - Server is running
+[2024-07-10T15:14:17.017] [ERROR] default - ValidationError [SequelizeValidationError]: notNull Violation: User.username cannot be null
+    at InstanceValidator._validate (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/instance-validator.js:50:13)
+    at async InstanceValidator._validateAndRunHooks (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/instance-validator.js:60:7)
+    at async InstanceValidator.validate (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/instance-validator.js:54:12)
+    at async model.save (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/model.js:2426:7)
+    at async module.exports.register (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/controllers/auth.controller.js:22:5) {
+  errors: [
+    ValidationErrorItem {
+      message: 'User.username cannot be null',
+      type: 'notNull Violation',
+      path: 'username',
+      value: null,
+      origin: 'CORE',
+      instance: [User],
+      validatorKey: 'is_null',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ]
+}
+[2024-07-10T15:15:28.697] [DEBUG] default - Server is running
+[2024-07-10T15:15:28.851] [ERROR] default - Error
+    at Database.<anonymous> (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:185:27)
+    at /Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:183:50
+    at new Promise (<anonymous>)
+    at Query.run (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:183:12)
+    at /Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/sequelize.js:315:28
+    at async SQLiteQueryInterface.insert (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async model.save (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/model.js:2490:35)
+    at async module.exports.register (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/controllers/auth.controller.js:22:5) {
+  name: 'SequelizeUniqueConstraintError',
+  errors: [],
+  parent: Error: SQLITE_CONSTRAINT: NOT NULL constraint failed: Users.username
+  --> in Statement#run([Object: null prototype] {
+    '$1': 'yves@gmail.com',
+    '$2': '$2b$09$qIeibdRVtNC2RcJOUx7QHeJ63Fzrfws2B7gMaxzNDuZkYsACqNy1a',
+    '$3': 'member',
+    '$4': '2024-07-10 13:15:28.843 +00:00',
+    '$5': '2024-07-10 13:15:28.843 +00:00'
+  }, [Function: afterExecute])
+      at Database.<anonymous> (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sqlite3/lib/sqlite3.js:76:19)
+      at Database.<anonymous> (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sqlite3/lib/sqlite3.js:20:19)
+      at executeSql (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:211:21)
+      at Database.<anonymous> (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:238:14)
+      at /Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:183:50
+      at new Promise (<anonymous>)
+      at Query.run (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:183:12)
+      at /Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/sequelize.js:315:28 {
+    errno: 19,
+    code: 'SQLITE_CONSTRAINT',
+    __augmented: true,
+    sql: 'INSERT INTO `Users` (`id`,`email`,`password`,`role`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);'
+  },
+  original: Error: SQLITE_CONSTRAINT: NOT NULL constraint failed: Users.username
+  --> in Statement#run([Object: null prototype] {
+    '$1': 'yves@gmail.com',
+    '$2': '$2b$09$qIeibdRVtNC2RcJOUx7QHeJ63Fzrfws2B7gMaxzNDuZkYsACqNy1a',
+    '$3': 'member',
+    '$4': '2024-07-10 13:15:28.843 +00:00',
+    '$5': '2024-07-10 13:15:28.843 +00:00'
+  }, [Function: afterExecute])
+      at Database.<anonymous> (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sqlite3/lib/sqlite3.js:76:19)
+      at Database.<anonymous> (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sqlite3/lib/sqlite3.js:20:19)
+      at executeSql (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:211:21)
+      at Database.<anonymous> (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:238:14)
+      at /Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:183:50
+      at new Promise (<anonymous>)
+      at Query.run (/Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/dialects/sqlite/query.js:183:12)
+      at /Users/grahamdanillon/Documents/Graham/Autre/DEV/Project/puigemanje/api/node_modules/sequelize/lib/sequelize.js:315:28 {
+    errno: 19,
+    code: 'SQLITE_CONSTRAINT',
+    __augmented: true,
+    sql: 'INSERT INTO `Users` (`id`,`email`,`password`,`role`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);'
+  },
+  fields: [],
+  sql: 'INSERT INTO `Users` (`id`,`email`,`password`,`role`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);'
+}
+[2024-07-10T15:16:10.655] [DEBUG] default - Server is running
+[2024-07-10T15:16:16.701] [DEBUG] default - Server is running
